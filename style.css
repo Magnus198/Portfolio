@@ -1,19 +1,23 @@
 @font-face {
-    font-family: 'dmsans_regular';
-    src: url('/fonts/dmsans-regular.woff') format('woff2'),
-        url('/fonts/dmsans-regular.woff2') format('woff');
+    font-family: 'dmsans_1';
+    src: url('fonts/dmsans-regular.woff') format('woff'),
+        url('fonts/dmsans-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'dmsans_sansbold';
-    src: url('/fonts/dmsans-bold.woff2') format('woff2'),
-        url('/fonts/dmsans-bold.woff') format('woff');
+    font-family: 'dmsans_2';
+    src: url('fonts/dmsans-bold.woff') format('woff'),
+        url('fonts/dmsans-bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 .header {
-    font-family: 'dmsans-regular';
+    font-family: 'dmsans_1';
+}
+ 
+.section-about_me {
+    font-family: 'dmsans_1';
 }
