@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'dmsans_1';
+    font-family: 'dmsans_400';
     src: url('fonts/dmsans-regular.woff') format('woff'),
         url('fonts/dmsans-regular.woff2') format('woff2');
     font-weight: normal;
@@ -7,7 +7,16 @@
 }
 
 @font-face {
-    font-family: 'dmsans_2';
+    font-family: 'dmsans_500';
+    src: url('fonts/dmsans-medium.woff') format('woff'),
+         url('fonts/dmsans-medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dmsans_700';
     src: url('fonts/dmsans-bold.woff') format('woff'),
         url('fonts/dmsans-bold.woff2') format('woff2');
     font-weight: normal;
@@ -15,9 +24,13 @@
 }
 
 .header {
-    font-family: 'dmsans_1';
+    font-family: 'dmsans_400';
 }
  
 .section-about_me {
-    font-family: 'dmsans_1';
+    font-family: 'dmsans_400';
+}
+
+.section-Design_stack {
+    font-family: 'dmsans_400';
 }
