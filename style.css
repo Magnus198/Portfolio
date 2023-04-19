@@ -23,22 +23,85 @@
     font-style: normal;
 }
 
-.header {
-    font-family: 'dmsans_400';
-}
- 
-.section-about_me {
-    font-family: 'dmsans_400';
+body {
+    background-color: #091A29;
+    font-family: 'dmsans_400', 'dmsans_500', 'dmsans_700';
 }
 
-.section-Design_stack {
-    font-family: 'dmsans_400';
+a {
+    text-decoration: none;
+    color: gray;
+    position: absolute;
 }
 
-.section_projects {
-    font-family: 'dmsans_400';
+a:hover {
+    color: #ffffff;
 }
 
-.section_contact_me {
-    font-family: 'dmsans_400';
+.container {
+    max-width: auto;
+}
+
+/* Header */
+.header-container {
+    margin-left: 46px;
+}
+
+.header-navigation {
+    display: flex;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.list-element:not(:last-child) {
+    margin-right: 125px;
+}
+
+.header-crystal {
+    margin-left: 83px;
+}
+
+.header-headline {
+    font-weight: 700;
+    color: #091a55;
+    font-size: 500px;
+    margin: 0;
+    margin-top: -50px;
+    margin-left: -28px;
+}
+
+.header-placeholder {
+    position: absolute;
+    margin-top: -851px;
+}
+
+.placeholder-description {
+    position: absolute;
+    margin-top: -665px;
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+}
+
+.header-placeholder-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -365px;
+}
+
+.header-placeholder-list_element:not(:last-child) {
+    margin-right: 50px;
+    font-weight: 400;
+}
+
+.header-placeholder-list_element {
+    color: grey;
+    font-size: 16px;
 }
