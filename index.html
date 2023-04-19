@@ -6,75 +6,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
     <title>Portfolio</title>
 </head>
 
 <body>
     <header>
-        <section>
-            <div class="header">
-                <div class="navigation">
-                    <ul class="menu">
-                        <li class="menu-element">
+        <div class="container header-container">
+            <div class="header-navigation">
+                <nav>
+                    <ul class="header-list">
+                        <li class="list-element">
                             <a href="#">Home</a>
                         </li>
-                        <li class="menu-element">
+                        <li class="list-element">
                             <a href="#">About me</a>
                         </li>
-                        <li class="menu-element">
+                        <li class="list-element">
                             <a href="#">Products</a>
                         </li>
-                        <li class="menu-element">
+                        <li class="list-element">
                             <a href="#">Contact</a>
                         </li>
                     </ul>
-                    <img src="img/crystal.png" alt="crystal">
-                </div>
-                <div>
-                    <h1>
+                    <h1 class="header-headline">
                         HI
                     </h1>
-                    <img src="img/Placeholder.png" alt="placeholder">
-                    <h2>
-                        My name is Shallom, <br>
-                        I am a product designer
-                    </h2>
-                </div>
-                <div>
-                    <ul>
-                        <li>
-                            <p>
-                                Product
-                                Design
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Motion
-                                Graphics
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Video
-                                Editing
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                3D
-                                Modeling
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Illustration
-                            </p>
-                        </li>
-                    </ul>
-                </div>
+                </nav>
+                <img class="header-crystal" src="img/crystal.png" alt="crystal">
             </div>
-        </section>
+            <div>
+                <img class="header-placeholder" src="img/Placeholder.png" alt="placeholder">
+                <h2 class="placeholder-description">
+                    My name is Shallom, <br>
+                    I am a product designer
+                </h2>
+            </div>
+            <div>
+                <ul class="header-placeholder-list">
+                    <li class="header-placeholder-list_element">
+                        <p>
+                            Product <br>
+                            Design
+                        </p>
+                    </li>
+                    <li class="header-placeholder-list_element">
+                        <p>
+                            Motion <br>
+                            Graphics
+                        </p>
+                    </li>
+                    <li class="header-placeholder-list_element">
+                        <p>
+                            Video <br>
+                            Editing
+                        </p>
+                    </li>
+                    <li class="header-placeholder-list_element">
+                        <p>
+                            3D <br>
+                            Modeling
+                        </p>
+                    </li>
+                    <li class="header-placeholder-list_element">
+                        <p>
+                           <br> 
+                            Illustration
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <section class="section-about_me">
@@ -186,7 +188,7 @@
                     See Mobile Prototype
                 </p>
                 <p>
-                    See Desktop Prototype 
+                    See Desktop Prototype
                 </p>
             </div>
         </div>
