@@ -30,7 +30,7 @@ body {
 
 a {
     text-decoration: none;
-    color: gray;
+    color: #183A58;
     position: absolute;
 }
 
@@ -43,8 +43,10 @@ a:hover {
 }
 
 /* Header */
-.header-container {
-    margin-left: 46px;
+.section_header {
+    padding-bottom: 112px;
+    padding-left: 80px;
+    border-bottom: 2px solid #183A58;
 }
 
 .header-navigation {
@@ -64,11 +66,12 @@ a:hover {
 
 .header-crystal {
     margin-left: 83px;
+    width: 931px;
 }
 
 .header-headline {
     font-weight: 700;
-    color: #091a55;
+    color: #183A58;
     font-size: 500px;
     margin: 0;
     margin-top: -50px;
@@ -77,7 +80,7 @@ a:hover {
 
 .header-placeholder {
     position: absolute;
-    margin-top: -851px;
+    margin-top: -808px;
 }
 
 .placeholder-description {
@@ -102,6 +105,37 @@ a:hover {
 }
 
 .header-placeholder-list_element {
-    color: grey;
+    color: #183A58;
     font-size: 16px;
+}
+
+.header-placeholder-list_element:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* About Me */
+.section_about-me {
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 46px;
+}
+
+.section2-headline {
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+.section2-group {
+    display: flex;
+}
+
+.section2-description {
+    margin: 0;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #fff;
 }
