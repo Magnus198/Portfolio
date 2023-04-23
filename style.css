@@ -146,6 +146,7 @@ a:hover {
     padding-top: 40px;
     padding-left: 80px;
     padding-bottom: 58px;
+    border-bottom: 2px solid #183A58;
 }
 
 .section3-headline {
@@ -210,4 +211,65 @@ a:hover {
     color: #F6683C;
     margin-left: 982px;
     margin-top: 225px;
+}
+
+/* Projects */
+.section_projects {
+    padding-left: 34px;
+    padding-top: 62px;
+    padding-bottom: 80px;
+}
+
+.section4-headline {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.section4-group {
+    background: rgba(24, 58, 88, 0.5);
+    border-radius: 53px;
+    width: 1441px;
+    height: 567px;
+}
+
+.section4-group-headline {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #F6683C;
+    margin-bottom: 3px;
+    margin-left: 50px;
+}
+
+.section4-group-img {
+    margin-left: 46px;
+}
+
+.section4-group-img-element:not(:first-child) {
+    margin-left: 20px;
+}
+
+.section4-list {
+    display: flex;
+    margin-top: 22px;
+}
+
+.section4-list-item {
+    color: white;
+}
+
+.section4-list-item:hover {
+    color: yellow;
+}
+
+.section4-list-item:not(:last-child) {
+    margin-left: 47px;
+}
+
+.section4-list-item:not(:first-child) {
+    margin-left: 509px;
 }
