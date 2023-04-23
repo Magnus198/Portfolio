@@ -119,6 +119,7 @@ a:hover {
     padding-top: 30px;
     padding-left: 80px;
     padding-bottom: 46px;
+    border-bottom: 2px solid #183A58;
 }
 
 .section2-headline {
@@ -138,4 +139,75 @@ a:hover {
     margin-top: 30px;
     font-size: 20px;
     color: #fff;
+}
+
+/* Design Stack */
+.section-design_stack {
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-bottom: 58px;
+}
+
+.section3-headline {
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    margin-left: 4px;
+}
+
+.section3-group {
+    display: flex;
+    margin-top: 40px;
+}
+
+.section3-group1 {
+    display: flex;
+}
+
+.section3-picture {
+    width: 210px;
+    height: 210px;
+}
+
+.section3-group-list {
+    margin-left: 20px;
+    margin-top: -7px;
+}
+
+.section3-group-list-element {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.section3-picture-description {
+    position: absolute;
+    color: #F6683C;
+    margin-left: 39px;
+    margin-top: 225px;
+}
+
+.section3-group2 {
+    margin-left: 109px;
+    display: flex;
+}
+
+.section3-picture-description1 {
+    position: absolute;
+    color: #F6683C;
+    margin-left: 514px;
+    margin-top: 225px;
+}
+
+.section3-group3 {
+    display: flex;
+    margin-left: 109px;
+}
+
+.section3-picture-description2 {
+    position: absolute;
+    color: #F6683C;
+    margin-left: 982px;
+    margin-top: 225px;
 }
