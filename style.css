@@ -273,3 +273,55 @@ a:hover {
 .section4-list-item:not(:first-child) {
     margin-left: 509px;
 }
+
+/* Contact Me */
+.footer-container {
+    background: rgba(24, 58, 88, 0.5);
+    height: 348px;
+}
+
+.footer-headline {
+    margin: 0;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    margin-left: 79px;
+}
+
+.footer-group {
+    display: flex;
+}
+
+.footer-description {
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 145px;
+    margin-left: -53px;
+}
+
+.footer-group1 {
+    margin-left: 341px;
+    margin-top: 133px;
+}
+
+.footer-element-description {
+    margin: 0;
+    color: white;
+    margin-left: 12px;
+}
+
+.footer-group1-element1 {
+    position:absolute;
+    margin-left: 200px;
+    margin-top: -122px;
+}
+
+.footer-element1-description {
+    margin: 0;
+    color: white;
+    margin-left: 214px;
+    margin-top: -15px;
+}
