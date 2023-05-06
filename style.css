@@ -325,3 +325,41 @@ a:hover {
     margin-left: 214px;
     margin-top: -15px;
 }
+
+@media (max-width: 992px) {
+    .footer-container {
+        width: 1515px;
+    }
+
+    .section_about-me {
+        width: 1430px;
+    }
+
+    .section-design_stack {
+        width: 1500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .placeholder-description {
+        font-size: 45px;
+    }
+
+    .section3-picture-description1 {
+        width: 94px;
+    }
+
+    .section4-list-item {
+        width: 159px;
+    }
+}
+
+@media (max-width: 320px) {
+    .placeholder-description {
+        font-size: 21px;
+    }
+
+    .section_about-me {
+        width: 1180px;
+    }
+}
